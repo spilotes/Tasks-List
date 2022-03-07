@@ -144,3 +144,38 @@ footer .logo-footer {
   margin-top: -0.4rem;
   cursor: pointer;
 }
+
+@media (max-width: 400px) {
+  main .container {
+    border: 2px solid #fff;
+    padding: 1rem 1rem;
+    width: 30%;
+    min-width: 350px;
+  }
+
+  main .new-task-container {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .footer {
+    font-size: 0.7rem;
+  }
+
+  footer .copy {
+    margin-left: 0.5rem;
+  }
+
+  footer .powered {
+    margin-top: -1rem;
+    margin-left: 10.3rem;
+  }
+
+  footer .logo-footer {
+    width: 9.3rem;
+    height: 2rem;
+    float: right;
+    margin-left: 0.3rem;
+    margin-top: -0.4rem;
+    cursor: pointer;
+  }
+} ;
